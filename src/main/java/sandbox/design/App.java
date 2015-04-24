@@ -1,8 +1,8 @@
-package com.gilbertoca;
+package sandbox.design;
 
-import com.gilbertoca.template.GeradorArquivo;
-import com.gilbertoca.template.GeradorPropriedadesCriptografado;
-import com.gilbertoca.template.GeradorXMLCompactado;
+import sandbox.design.template.GeradorArquivo;
+import sandbox.design.template.GeradorPropriedadesCriptografado;
+import sandbox.design.template.GeradorXMLCompactado;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;

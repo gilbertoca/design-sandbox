@@ -1,4 +1,4 @@
-package com.gilbertoca;
+package sandbox.design;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

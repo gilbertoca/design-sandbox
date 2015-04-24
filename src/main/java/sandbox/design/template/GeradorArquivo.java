@@ -1,4 +1,4 @@
-package com.gilbertoca.template;
+package sandbox.design.template;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
