@@ -1,0 +1,12 @@
+@startuml
+
+abstract class sandbox.design.template.GeradorArquivo
+class sandbox.design.template.App
+class sandbox.design.template.GeradorPropriedadesCriptografado
+class sandbox.design.template.GeradorXMLCompactado
+sandbox.design.template.App ..> sandbox.design.template.GeradorArquivo
+sandbox.design.template.App ..> sandbox.design.template.GeradorPropriedadesCriptografado
+sandbox.design.template.App ..> sandbox.design.template.GeradorXMLCompactado
+sandbox.design.template.GeradorPropriedadesCriptografado --|> sandbox.design.template.GeradorArquivo
+sandbox.design.template.GeradorXMLCompactado --|> sandbox.design.template.GeradorArquivo
+@enduml
