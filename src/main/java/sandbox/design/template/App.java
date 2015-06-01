@@ -1,8 +1,5 @@
 package sandbox.design.template;
 
-import sandbox.design.bridge.GeradorArquivo;
-import sandbox.design.bridge.GeradorPropriedades;
-import sandbox.design.bridge.GeradorXML;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -16,8 +13,8 @@ public class App
     public static void main( String[] args ) throws IOException
     {
         System.out.println( "Usando o gerador de arquivos" );
-        //GeradorArquivo ga = new GeradorPropriedades(1);
-        GeradorArquivo ga = new GeradorXML();
+        //GeradorArquivo ga = new GeradorPropriedadesCriptografado(1);
+        GeradorArquivo ga = new GeradorXMLCompactado();
         Map<String, Object> mapa = new HashMap<String, Object>();
         
         mapa.put("nome1", "Gilberto");
