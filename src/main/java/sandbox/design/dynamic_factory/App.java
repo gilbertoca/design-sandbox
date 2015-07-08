@@ -14,7 +14,7 @@ public class App {
 
         //XML sem pos-processador
         GeradorArquivo gxsp = new GeradorXML();
-        gxsp.setPosProcessador(new NullPosProcessador());
+        gxsp.setProcessador(new NullPosProcessador());
         gxsp.gerarArquivo("gxsp.txt", mapa);
 
         //XML com pos-processador - compactador

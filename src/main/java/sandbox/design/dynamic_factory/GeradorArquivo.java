@@ -11,7 +11,7 @@ import java.util.Map;
 public abstract class GeradorArquivo {
     private PosProcessador processador;
 
-    public void setPosProcessador(PosProcessador processador) {
+    public void setProcessador(PosProcessador processador) {
         this.processador = processador;
     }
     

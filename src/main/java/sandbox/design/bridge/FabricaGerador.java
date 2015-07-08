@@ -25,7 +25,7 @@ public abstract class FabricaGerador {
     
     public static GeradorArquivo criarGeradorXML(String ... processadores) {
         GeradorArquivo g = new GeradorXML();
-        g.setProcessador(criarProcessador(processadores));
+        g.setPosProcessador(criarProcessador(processadores));
         return g;
     }
 
