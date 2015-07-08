@@ -1,4 +1,4 @@
-package sandbox.design.bridge;
+package sandbox.design.dynamic_factory;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ import java.util.Map;
 public abstract class GeradorArquivo {
     private PosProcessador processador;
 
-    public void setProcessador(PosProcessador processador) {
+    public void setPosProcessador(PosProcessador processador) {
         this.processador = processador;
     }
     

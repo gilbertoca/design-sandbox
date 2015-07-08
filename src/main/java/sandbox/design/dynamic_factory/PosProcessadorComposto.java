@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package sandbox.design.bridge;
+package sandbox.design.dynamic_factory;
 
 import java.io.IOException;
 import java.util.HashSet;

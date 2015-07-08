@@ -1,4 +1,4 @@
-package sandbox.design.bridge;
+package sandbox.design.dynamic_factory;
 
 import java.io.IOException;
 
